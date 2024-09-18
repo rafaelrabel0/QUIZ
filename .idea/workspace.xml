@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7540d59-7440-4a00-b27c-1fe80efdc851" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QUIZ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QUESTIONS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QUIZ.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7540d59-7440-4a00-b27c-1fe80efdc851" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726526245508</updated>
       <workItem from="1726526246637" duration="3541000" />
-      <workItem from="1726612178958" duration="7821000" />
+      <workItem from="1726612178958" duration="8120000" />
     </task>
     <servers />
   </component>

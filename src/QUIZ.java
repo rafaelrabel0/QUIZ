@@ -3,6 +3,18 @@ import java.util.Scanner;
 //QUIZ
 public class QUIZ {
 
+    // CABEÇALHO
+    public static void cabecalho() {
+        System.out.println("Centro Universitário Alfredo Nasser");
+        System.out.println("Professor: Brenno Pimenta");
+        System.out.println("Aluno: Rafael Rabelo");
+        System.out.println("Algoritmos e Programação II");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("O Quiz abaixo contém perguntas sobre games.");
+        System.out.println("            Boa sorte nerdola.");
+        System.out.println("-------//-------//-------//-------//-------");
+    }
+
     //NOME E CONTADOR
     public static void main(String[] args) {
         long clockstart = System.currentTimeMillis();
@@ -161,6 +173,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst2.escrevaresposta();
         if(qst2.Correta()){
@@ -168,6 +181,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst3.escrevaresposta();
         if(qst3.Correta()){
@@ -175,6 +189,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst4.escrevaresposta();
         if(qst4.Correta()){
@@ -182,6 +197,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst5.escrevaresposta();
         if(qst5.Correta()){
@@ -189,6 +205,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst6.escrevaresposta();
         if(qst6.Correta()){
@@ -196,6 +213,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst7.escrevaresposta();
         if(qst7.Correta()){
@@ -203,6 +221,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst8.escrevaresposta();
         if(qst8.Correta()){
@@ -210,6 +229,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst9.escrevaresposta();
         if(qst9.Correta()){
@@ -217,6 +237,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst10.escrevaresposta();
         if(qst10.Correta()){
@@ -224,6 +245,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst11.escrevaresposta();
         if(qst11.Correta()){
@@ -231,6 +253,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst12.escrevaresposta();
         if(qst12.Correta()){
@@ -238,6 +261,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst13.escrevaresposta();
         if(qst13.Correta()){
@@ -245,6 +269,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst14.escrevaresposta();
         if(qst14.Correta()){
@@ -252,6 +277,7 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         qst15.escrevaresposta();
         if(qst15.Correta()){
@@ -259,23 +285,11 @@ public class QUIZ {
         }
         System.out.println("Total de acertos: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
         long clockend = System.currentTimeMillis();
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Você gastou: "+(clockend - clockstart )/1000 + "s");
 
-    }
-
-    // CABEÇALHO
-    public static void cabecalho() {
-        System.out.println(" Centro Universitário Alfredo Nasser ");
-        System.out.println("-------//-------//-------//-------//-------");
-        System.out.println("Professor: Brenno Pimenta");
-        System.out.println("Aluno: Rafael Rabelo");
-        System.out.println("Algoritmos e Programação II");
-        System.out.println("-------//-------//-------//-------//-------");
-        System.out.println("O Quiz abaixo contém perguntas sobre games.");
-        System.out.println("            Boa sorte nerdola.");
-        System.out.println("-------//-------//-------//-------//-------");
     }
 }

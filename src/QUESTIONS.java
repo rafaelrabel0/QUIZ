@@ -26,13 +26,15 @@ public class QUESTIONS {
         public boolean Correta() {
             String resposta = leiaResposta();
             if (resposta.equalsIgnoreCase(this.correta)) {
-                System.out.println("Boa, é isso daí, resposta certa. - Letra:" + this.correta);
+                System.out.println("");
                 System.out.println("-------//-------//-------//-------//-------");
+                System.out.println("Boa, é isso daí, resposta certa. - Letra: " + this.correta);
                 return true;
 
             } else {
-                System.out.println("Pô, deu mole, resposta certa é: " + this.correta);
+                System.out.println("");
                 System.out.println("-------//-------//-------//-------//-------");
+                System.out.println("Pô, deu mole, resposta certa é: " + this.correta);
                 return false;
             }
         }

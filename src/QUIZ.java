@@ -291,7 +291,7 @@ public class QUIZ {
         long clockend = System.currentTimeMillis();
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Você errou um total de: " +contadore+ "/15");
-        if (contador > 7){
+        if (contadore > 7){
             System.out.println("Caramba, errou muito em");
         }
         else {

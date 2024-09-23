@@ -19,7 +19,6 @@ public class QUIZ {
     public static void main(String[] args) {
         long clockstart = System.currentTimeMillis();
         int contador = 0;
-        int contadore = 15 - contador;
         cabecalho();
         String name;
         Scanner n = new Scanner(System.in);
@@ -288,6 +287,7 @@ public class QUIZ {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore = 15 - contador;
         long clockend = System.currentTimeMillis();
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Você errou um total de: " +contadore+ "/15");
@@ -297,7 +297,6 @@ public class QUIZ {
         else {
             System.out.println("Boa, acertou bastante");
         }
-
         System.out.println("Você gastou: "+(clockend - clockstart )/1000 + "s");
 
     }

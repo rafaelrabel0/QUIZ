@@ -289,6 +289,7 @@ public class QUIZ {
 
         long clockend = System.currentTimeMillis();
         System.out.println("Você acertou um total de: " +contador+"/15.");
+        System.out.println("Você errou um total de: " +(15 - contador) + "/15");
         System.out.println("Você gastou: "+(clockend - clockstart )/1000 + "s");
 
     }

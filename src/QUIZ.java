@@ -121,7 +121,7 @@ public class QUIZ {
         qst10.correta = "D";
 
         QUESTIONS qst11 = new QUESTIONS();
-        qst11.questions = "11 - Em Resident Evil 5, quem é o parceiro de Chris Redfield durante a campanha principal?";
+        qst11.questions = "11 - Em Resident Evil 5, quem é a parceira de Chris Redfield durante a campanha principal?";
         qst11.A = "A) Jill Valentine";
         qst11.B = "B) Leon S. Kennedy ";
         qst11.C = "C) Ada Wong ";
@@ -287,7 +287,10 @@ public class QUIZ {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //CONTADOR ERROS
         int contadore = 15 - contador;
+
+        //CONTADOR ACERTOS E MENSAGEM DE ERRO E ACERTOS
         long clockend = System.currentTimeMillis();
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Você errou um total de: " +contadore+ "/15");
@@ -297,6 +300,8 @@ public class QUIZ {
         else {
             System.out.println("Boa, acertou bastante");
         }
+
+        //TEMPO GASTO
         System.out.println("Você gastou: "+(clockend - clockstart )/1000 + "s");
 
     }

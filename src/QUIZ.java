@@ -10,7 +10,7 @@ public class QUIZ {
         System.out.println("Aluno: Rafael Rabelo");
         System.out.println("Algoritmos e Programação II");
         System.out.println("-------//-------//-------//-------//-------");
-        System.out.println("O Quiz abaixo contém perguntas sobre games.");
+        System.out.println("O Quiz abaixo contém 15 perguntas sobre games.");
         System.out.println("            Boa sorte nerdola.");
         System.out.println("-------//-------//-------//-------//-------");
     }

@@ -30,7 +30,7 @@ public class QUIZ {
         //QUESTÕES 1-15
         System.out.println("");
         System.out.println("Seguinte " +name+" uma dica, não é a letra E.");
-        QUESTIONS qst1 = new QUESTIONS();
+        Questao qst1 = new Questao();
         qst1.questions = "1 - Em God of War (2005), qual deus Kratos deve derrotar no final do jogo?";
         qst1.A = "A) Zeus";
         qst1.B = "B) Poseidon ";
@@ -39,7 +39,7 @@ public class QUIZ {
         qst1.E = "E) Hermes ";
         qst1.correta = "D";
 
-        QUESTIONS qst2 = new QUESTIONS();
+        Questao qst2 = new Questao();
         qst2.questions = "2 - Em Guitar Hero III: Legends of Rock, qual é o nome do último chefe que o jogador deve enfrentar?";
         qst2.A = "A) Slash ";
         qst2.B = "B) Lou ";
@@ -48,7 +48,7 @@ public class QUIZ {
         qst2.E = "E) Johnny Napalm ";
         qst2.correta = "B";
 
-        QUESTIONS qst3 = new QUESTIONS();
+        Questao qst3 = new Questao();
         qst3.questions = "Qual é o nome do protagonista em Red Dead Redemption 2?";
         qst3.A = "A) John Marston ";
         qst3.B = "B) Arthur Morgan ";
@@ -57,7 +57,7 @@ public class QUIZ {
         qst3.E = "E) Javier Escuella ";
         qst3.correta = "B";
 
-        QUESTIONS qst4 = new QUESTIONS();
+        Questao qst4 = new Questao();
         qst4.questions = "4 - No início de GTA IV, qual é o motivo principal de Niko Bellic para ir a Liberty City? ";
         qst4.A = "A) Trabalhar para a máfia.";
         qst4.B = "B) Fugir de dívidas.";
@@ -66,7 +66,7 @@ public class QUIZ {
         qst4.E = "E) Recomeçar uma vida longe de seu passado militar.";
         qst4.correta = "E";
 
-        QUESTIONS qst5 = new QUESTIONS();
+        Questao qst5 = new Questao();
         qst5.questions = "Em GTA V, quantos personagens jogáveis existem durante a campanha principal? ";
         qst5.A = "A) 1 ";
         qst5.B = "B) 2 ";
@@ -75,7 +75,7 @@ public class QUIZ {
         qst5.E = "E) 5 ";
         qst5.correta = "C";
 
-        QUESTIONS qst6 = new QUESTIONS();
+        Questao qst6 = new Questao();
         qst6.questions = "6 - Em Red Dead Redemption (2010), qual é o destino de John Marston no final da história principal? ";
         qst6.A = "A) Ele foge para o México.";
         qst6.B = "B) Ele se torna líder da gangue de Dutch. ";
@@ -84,7 +84,7 @@ public class QUIZ {
         qst6.E = "E) Ele é preso e condenado à morte. ";
         qst6.correta = "C";
 
-        QUESTIONS qst7 = new QUESTIONS();
+        Questao qst7 = new Questao();
         qst7.questions = "7 - Em Minecraft, qual é o nome do bioma onde o Ender Dragon vive?";
         qst7.A = "A) Nether";
         qst7.B = "B) Overworld";
@@ -93,7 +93,7 @@ public class QUIZ {
         qst7.E = "E) Forest";
         qst7.correta = "C";
 
-        QUESTIONS qst8 = new QUESTIONS();
+        Questao qst8 = new Questao();
         qst8.questions = "8 - Qual é o nome do parceiro de Sonic, o ouriço, que pode voar usando suas caudas?";
         qst8.A = "A) Knuckles";
         qst8.B = "B) Amy ";
@@ -102,7 +102,7 @@ public class QUIZ {
         qst8.E = "E) Silver";
         qst8.correta = "D";
 
-        QUESTIONS qst9 = new QUESTIONS();
+        Questao qst9 = new Questao();
         qst9.questions = "9 - Qual o nome do irmão de Mario?";
         qst9.A = "A) King Boo ";
         qst9.B = "B) Bowser ";
@@ -111,7 +111,7 @@ public class QUIZ {
         qst9.E = "E) Luigi";
         qst9.correta = "E";
 
-        QUESTIONS qst10 = new QUESTIONS();
+        Questao qst10 = new Questao();
         qst10.questions = "10 - Em Resident Evil 4, quem Leon S. Kennedy é enviado para resgatar?";
         qst10.A = "A) Jill Valentine";
         qst10.B = "B) Ada Wong";
@@ -120,7 +120,7 @@ public class QUIZ {
         qst10.E = "E) Rebecca Chambers";
         qst10.correta = "D";
 
-        QUESTIONS qst11 = new QUESTIONS();
+        Questao qst11 = new Questao();
         qst11.questions = "11 - Em Resident Evil 5, quem é a parceira de Chris Redfield durante a campanha principal?";
         qst11.A = "A) Jill Valentine";
         qst11.B = "B) Leon S. Kennedy ";
@@ -129,7 +129,7 @@ public class QUIZ {
         qst11.E = "E) Claire Redfield";
         qst11.correta = "D";
 
-        QUESTIONS qst12 = new QUESTIONS();
+        Questao qst12 = new Questao();
         qst12.questions = "12 - No Free Fire, qual é o objetivo principal do jogo?";
         qst12.A = "A) Capturar a bandeira.";
         qst12.B = "B) Construir uma base.";
@@ -138,7 +138,7 @@ public class QUIZ {
         qst12.E = "E) Resgatar reféns.";
         qst12.correta = "C";
 
-        QUESTIONS qst13 = new QUESTIONS();
+        Questao qst13 = new Questao();
         qst13.questions = "13 - Em UNO, quantas cartas um jogador deve comprar ao receber uma carta “+4”?";
         qst13.A = "A) 2 ";
         qst13.B = "B) 3 ";
@@ -147,7 +147,7 @@ public class QUIZ {
         qst13.E = "E) 8 ";
         qst13.correta = "C";
 
-        QUESTIONS qst14 = new QUESTIONS();
+        Questao qst14 = new Questao();
         qst14.questions = "14 - No jogo Mario Kart 8, qual é a fruta que você joga no oponente que o faz perder o controle do carro?";
         qst14.A = "A) Banana ";
         qst14.B = "B) Cogumelo ";
@@ -156,7 +156,7 @@ public class QUIZ {
         qst14.E = "E) Tomate ";
         qst14.correta = "A";
 
-        QUESTIONS qst15 = new QUESTIONS();
+        Questao qst15 = new Questao();
         qst15.questions = "15 - Em Sonic Adventure 2, quem é o principal antagonista que Sonic enfrenta?";
         qst15.A = "A) Dr. Eggman";
         qst15.B = "B) Shadow the Hedgehog";
@@ -294,6 +294,7 @@ public class QUIZ {
         long clockend = System.currentTimeMillis();
         System.out.println("Você acertou um total de: " +contador+"/15.");
         System.out.println("Você errou um total de: " +contadore+ "/15");
+        System.out.println("Sua porcentagem de acertos foi de "+(contador/15.0)*100+"%");
         if (contadore > 7){
             System.out.println("Caramba, errou muito em");
         }
